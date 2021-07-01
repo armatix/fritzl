@@ -27,7 +27,7 @@ __Example index.js:__
 ```ts
 "use strict";
 
-const Fritzl = require('fritzl');
+const Fritzl = require('fritzl')(); // You can set the binary name as string. Default value is null
 
 var Utils = Fritzl.Utils;
 var Golang = Fritzl.Golang;
